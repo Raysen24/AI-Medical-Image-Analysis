@@ -1,0 +1,6 @@
+aiofiles==0.7.0
+tensorflow==1.15
+opencv-python
+matplotlib
+scikit-learn
+protobuf==3.17.3

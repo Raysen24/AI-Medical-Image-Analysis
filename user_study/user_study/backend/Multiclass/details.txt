@@ -1,0 +1,19 @@
+with open('body_part_detect.pkl', 'rb') as f:
+    loaded_function = dill.load(f)
+
+model_paths = ['densenet_multiclass_new_2.h5', 'xception_multiclass_new_1.h5', 'inception_multiclass_new_4.h5', 'vgg_multiclass_new_1.h5', 'resnet_multiclass_new_1.h5']
+patient_path = '../datasets/test_patient'
+template_paths = [
+        '../datasets/ocr_mask/mask_L.jpg', '../datasets/ocr_mask/mask_L_2.jpg', 
+        '../datasets/ocr_mask/mask_L_3.jpg', '../datasets/ocr_mask/mask_L_4.jpg', 
+        '../datasets/ocr_mask/mask_L_white.jpg', '../datasets/ocr_mask/mask_R.jpg', 
+        '../datasets/ocr_mask/mask_R_2.jpg', '../datasets/ocr_mask/mask_R_3.jpg', 
+        '../datasets/ocr_mask/mask_R_4.jpg', '../datasets/ocr_mask/mask_R_5.jpg', 
+        '../datasets/ocr_mask/mask_R_6.jpg', '../datasets/ocr_mask/mask_R_7.jpg', 
+        '../datasets/ocr_mask/mask_R_white.jpg'
+    ]
+meta_model_file = 'meta_model.pkl'
+df_test = './df_test_multiclass_1.csv'
+
+final_rediction = loaded_function(patient_path, model_paths, meta_model_file, template_paths, df_test)
+print('Final prediction:', final_rediction)

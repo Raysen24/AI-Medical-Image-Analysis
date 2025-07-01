@@ -1,0 +1,107 @@
+services:
+  nginx:
+    build: ./nginx/
+    container_name: nginx
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_PORT=80
+      - SERVER_ADDRESS=SERVER_ADDRESS_TO_BE_REPLACED
+    depends_on:
+      - cxr_app
+      - ct_app
+      - blood_app
+      - iot
+      - maleobe
+      - maleofe
+  cxr_app:
+    build: ./cxr_app/
+    container_name: cxr_app
+    ports:
+      - "8001:80"
+    command: ["/start-reload.sh"]
+    volumes:
+      - ./cxr_app/v1:/app/app
+  ct_app:
+    build: ./ct_app/
+    container_name: ct_app
+    ports:
+      - "8002:80"
+    command: ["/start-reload.sh"]
+    volumes:
+      - ./ct_app/v1:/app/app
+  blood_app:
+    build: ./blood_app/
+    container_name: blood_app
+    ports:
+      - "8003:80"
+    command: ["/start-reload.sh"]
+    volumes:
+      - ./blood_app/v1:/app/app
+  mongo:
+    image: mongo:5.0.3
+    container_name: mongo
+    restart: always
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
+  iot:
+    build: ./iot_middleservice/
+    container_name: iot
+    ports:
+      - "8004:80"
+    command: ["/start-reload.sh"]
+    volumes:
+      # - ./iot_middleservice/v1/main.py:/app/app/main.py
+      - ./iot_middleservice/v1/:/app/app/
+    depends_on:
+      - mongo
+    environment:
+      - SERVER_ADDRESS=SERVER_ADDRESS_TO_BE_REPLACED
+      - SCHEMA=SCHEMA_TO_BE_REPLACED
+  postgres:
+    image: postgres:10-alpine
+    container_name: postgres
+    environment:
+      # - POSTGRES_USER=maleotech 
+      - POSTGRES_USER=postgres 
+      - POSTGRES_PASSWORD=maleo 
+      - POSTGRES_DB=numed
+    volumes:
+      - ./data/postgresql:/var/lib/postgresql/data
+  maleobe:
+    build: ./maleo_be/
+    container_name: maleobe
+    ports:
+      - 8005:80
+    command: ["/code/backendapp/wait-for.sh", "postgres:5432", "--", "/code/backendapp/run.sh"]
+    environment:
+      - POSTGRES_HOST=postgres
+    depends_on:
+      - postgres
+    volumes:
+      - ./media:/code/backendapp/media
+  garminbe:
+    build: ./garmin_be/
+    container_name: garminbe
+    ports: 
+      - 8006:80
+    command: ["node", "app.js"]
+  maleofe:
+    build: ./maleo_fe/
+    container_name: maleofe
+    ports:
+      - 3000:3000
+    environment:
+      - SERVER_ADDRESS=SERVER_ADDRESS_TO_BE_REPLACED
+      - SCHEMA=SCHEMA_TO_BE_REPLACED
+
+
+
+networks:
+  default:
+      ipam:
+          driver: default
+          config:
+              - subnet: 172.24.0.1/16

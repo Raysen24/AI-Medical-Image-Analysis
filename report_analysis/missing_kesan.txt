@@ -1,0 +1,63 @@
+ankle_dextra
+['ankle_joint_dextra-2401030049_Series_1001-report-1','ankle_dextra-2311150153_Series_1001-report-1', 'ankle_dextra-2312110097_Series_1001-report-1', 'ankle_dextra-2312150109_Series_1001-report-1']
+
+ankle_joint_bilateral
+['ankle_joint_bilateral-2401030049_Series_1001-report-1']
+
+antebrachii
+['antebrachii-2310200096_Series_1001-2310200096_00001-report-1', 'antebrachii-2310250128_Series_1001-report-1', 'antebrachii-2310300076_Series_1001-report-1', 'antebrachii-2311090052_Series_1001-report-1', 'antebrachii-2311150088_Series_1001-report-1', 'antebrachii-2311150115_Series_1001-report-1', 'antebrachii-2311220098_Series_1001-report-1', 'antebrachii-2311240131_Series_1001-report-1', 'antebrachii-2312070050_Series_1001-report-1', 'antebrachii-2312080127_Series_1001-report-1', 'antebrachii-2312080142_Series_1001-report-1', 'antebrachii-2312140196_Series_1001-report-1', 'antebrachii-2312180091_Series_1001-report-1', 'antebrachii-2401030057_Series_1001-report-1', 'antebrachii-2401030077_Series_1001-report-1', 'antebrachii-2401170051_Series_1001-report-1']
+
+bahu_dextra
+['bahu_dextra-2311070178_Series_1001_0000-report-1', 'bahu_dextra-2311240111_Series_1001_0000-report-1', 'bahu_dextra-2312110110_Series_1001-report-1']
+
+bahu_kanan_kiri
+['bahu_kanan_kiri-2312080125_Series_1001_0000-report-1', 'bahu_kanan_kiri-2401040034_Series_1001_0000-report-1', 'bahu_kanan_kiri-2401050101_Series_1001_0000-report-1', 'bahu_kanan_kiri-2401100112_Series_1001_0000-report-1', 'bahu_kanan_kiri-2401120093_Series_1001_0000-report-1']
+
+bahu_sinistra
+['bahu_sinistra-2312080101_Series_1001_0000-report-1', 'bahu_sinistra-2312130101_Series_1001_0000-report-1', 'bahu_sinistra-2312180100_Series_1001_0000-report-1']
+
+cruris
+['cruris-2310230067_Series_1001-report-1', 'cruris-2310270111_Series_1001-report-1', 'cruris-2311060109_Series_1001-report-1', 'cruris-2311080151_Series_1001-report-1', 'cruris-2311100103_Series_1001-report-1', 'cruris-2311130044_Series_1001-report-1', 'cruris-2311240062_Series_1001-report-1', 'cruris-2311240078_Series_1001-report-1', 'cruris-2311240113_Series_1001-report-1', 'cruris-2312010113_Series_1001-report-1', 'cruris-2312050149_Series_1001-report-1', 'cruris-2312060163_Series_1001-report-1', 'cruris-2312080111_Series_1001-report-1', 'cruris-2312110108_Series_1001-report-1', 'cruris-2312150090_Series_1001-report-1', 'cruris-2312220084_Series_1001-report-1', 'cruris-2401050117_Series_1001-report-1', 'cruris-2401120106_Series_1001-report-1', 'cruris-2401170054_Series_1001-report-1', 'cruris-2401170116_Series_1001-report-1', 'cruris-2401190062_Series_1001-report-1', 'cruris-2401190065_Series_1001-report-1', 'cruris-2401220144_Series_1001-report-1']
+
+cubiti
+['cubiti-2311100046_Series_1001-report-1', 'cubiti-2312010101_Series_1001-report-1', 'cubiti-2312070081_Series_1001-report-1', 'cubiti-2401050126_Series_1001-report-1']
+
+femur_dextra
+['femur_dextra-2311180135_Series_1001-report-1', 'femur_dextra-2311200100_Series_1001-report-1', 'femur_dextra-2311240100_Series_1001-report-1', 'femur_dextra-2312010079_Series_1001-report-1', 'femur_dextra-2401020159_Series_1001-report-1', 'femur_dextra-2401040079_Series_1001-report-1']
+
+femur_sinistra
+['femur_sinistra-2310240143_Series_1001-report-1', 'femur_sinistra-2311150140_Series_1001-report-1', 'femur_sinistra-2312080096_Series_1001-report-1', 'femur_sinistra-2312110096_Series_1001-report-1', 'femur_sinistra-2312130139_Series_1002-report-1', 'femur_sinistra-2401120138_Series_1001-report-1']
+
+genu
+['genu-2310200094_Series_1001-report-1', 'genu-2310200117_Series_1001-2310200117_Series_1001-report-1', 'genu-2310230098_Series_1001-report-1', 'genu-2311030034_Series_1001-report-1', 'genu-2311070153_Series_1001-report-1', 'genu-2311080145_Series_1001-report-1', 'genu-2311090116_Series_1001-report-1', 'genu-2311140125_Series_1001-report-1', 'genu-2311140159_Series_1001-report-1', 'genu-2311150104_Series_1001-report-1', 'genu-2311200044_Series_1001-report-1', 'genu-2311210129_Series_1001-report-1', 'genu-2311270065_Series_1001-report-1', 'genu-2311300048_Series_1001-report-1', 'genu-2312060147_Series_1001-report-1', 'genu-2312080093_Series_1001-report-1', 'genu-2312080095_Series_1001-report-1', 'genu-2312080109_Series_1001-report-1', 'genu-2312110099_Series_1001-report-1', 'genu-2312120159_Series_1001-report-1', 'genu-2312130164_Series_1001-report-1', 'genu-2312150118_Series_1001-report-1', 'genu-2312180096_Series_1001-report-1', 'genu-2401020160_Series_1001-report-1', 'genu-2401050036_Series_1001-report-1', 'genu-2401110063_Series_1001-report-1', 'genu-2401170101_Series_1001-report-1']
+
+hip_joint
+['hip_joint-2310250167_Series_1001-report-1', 'hip_joint-2310270075_Series_1001-report-1', 'hip_joint-2310300043_Series_1001-report-1', 'hip_joint-2311030099_Series_1001-report-1', 'hip_joint-2311060100_Series_1001-report-1', 'hip_joint-2311150155_Series_1001-report-1', 'hip_joint-2311220124_Series_1001-report-1', 'hip_joint-2311240073_Series_1001-report-1', 'hip_joint-2311240093_Series_1001-report-1', 'hip_joint-2312040139_Series_1001-report-1', 'hip_joint-2312120143_Series_1001-report-1', 'hip_joint-2312130156_Series_1001-report-1', 'hip_joint-2401050098_Series_1001-report-1', 'hip_joint-2401050103_Series_1001-report-1', 'hip_joint-2401090108_Series_1001-report-1', 'hip_joint-2401120111_Series_1001-report-1', 'hip_joint-2401220042_Series_1001-report-1']
+
+humerus_dextra
+['humerus_dextra-2310250173_Series_1001-report-1', 'humerus_dextra-2311240049_Series_1001-report-1', 'humerus_dextra-2312060116_Series_1001-report-1', 'humerus_dextra-2312150156_Series_1001-report-1']
+
+humerus_sinistra
+['humerus_sinistra-2310240160_Series_1001-report-1', 'humerus_sinistra-2311080124_Series_1001-report-1', 'humerus_sinistra-2311080125_Series_1001-report-1', 'humerus_sinistra-2401120132_Series_1001-report-1']
+
+manus
+['manus-2310250051_Series_1001-report-1', 'manus-2311040119_Series_1001-report-1', 'manus-2311080126_Series_1001-report-1', 'manus-2311160083_Series_1001-report-1', 'manus-2312070076_Series_1001-report-1', 'manus-2312080106_Series_1001_0000-report-1']
+
+pedis_dextra
+['pedis_dextra-2311130066_Series_1001-report-1', 'pedis_dextra-2312010102_Series_1001-report-1']
+
+pedis_sinistra
+['pedis_sinistra-2311130126_Series_1001-report-1', 'pedis_sinistra-2312180046_Series_1001-report-1', 'pedis_sinistra-2312180094_Series_1001-report-1']
+
+pelvis
+['pelvis-2311060126_Series_1001-report-1', 'pelvis-2311150095_Series_1001_0000-report-1', 'pelvis-2311150154_Series_1001_0000-report-1', 'pelvis-2312030048_Series_1001_0000-report-1', 'pelvis-2312110109_Series_1001-report-1', 'pelvis-2312130155_Series_1001_0000-report-1', 'pelvis-2401090107_Series_1001_0000-report-1', 'pelvis-2401160136_Series_1001_0000-report-1']
+
+vertebra_lumbosakral
+['vertebra_lumbosakral-2311230076_Series_1001-report-1', 'vertebra_lumbosakral-2311270055_Series_1001-report-1', 'vertebra_lumbosakral-2401050112_Series_1001-report-1']
+
+wrist_joint_dextra
+['wrist_joint_dextra-2311030030_Series_1001-report-1', 'wrist_joint_dextra-2311220130_Series_1001-report-1', 'wrist_joint_dextra-2311240109_Series_1001-report-1', 'wrist_joint_dextra-2312150106_Series_1001-report-1', 'wrist_joint_dextra-2312150147_Series_1001-report-1', 'wrist_joint_dextra-2401190048_Series_1001-report-1']
+
+wrist_joint_sinistra
+['wrist_joint_sinistra-2310230060_Series_1001-report-1', 'wrist_joint_sinistra-2310260021_Series_1001-report-1', 'wrist_joint_sinistra-2311010058_Series_1001-report-1', 'wrist_joint_sinistra-2311080086_Series_1001-report-1', 'wrist_joint_sinistra-2311090065_Series_1001-report-1', 'wrist_joint_sinistra-2311200076_Series_1001-report-1', 'wrist_joint_sinistra-2311230083_Series_1001-report-1', 'wrist_joint_sinistra-2311230090_Series_1001_0000-report-1', 'wrist_joint_sinistra-2312010074_Series_1001-report-1', 'wrist_joint_sinistra-2312070095_Series_1001-report-1', 'wrist_joint_sinistra-2401190046_Series_1001-report-1']
+

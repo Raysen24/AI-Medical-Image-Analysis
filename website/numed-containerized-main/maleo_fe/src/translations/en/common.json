@@ -1,0 +1,89 @@
+{
+  "system_admin": {
+    "dashboard": {
+      "page_title": "Dashboard System Admin",
+      "total_visit": "Total Visits",
+      "total_user": "Total Users",
+      "location": "Top 3 Locations",
+      "summary": "USER ACTIVITY SUMMARY"
+    },
+    "system_admin": {
+      "page_title": "User Management",
+      "user_active": "Active User",
+      "page_title_detail": "Detail User",
+      "hospital": "Hospital",
+      "hospital_detail": "Detail Hospital"
+    }
+  },
+  "patient": {
+    "dashboard": {
+      "page_title": "Dashboard Patient",
+      "blood_trend": "Blood Trend",
+      "history" : "Upload History"
+    },
+    "input": {
+      "cxr": {
+        "page_title": "List of CXR Result",
+        "cxr_upload": "CXR Upload File Form",
+        "here": "Here is Your",
+        "based": "AI Based CXR",
+        "notes": "Doctor Notes"
+      },
+      "ctscan": {
+        "page_title": "List of CT-Scan Result",
+        "cxr_upload": "CT-Scan Upload File Form",
+        "here": "Here is Your",
+        "based": "AI Based CT-Scan",
+        "notes": "Doctor Notes"
+      },
+      "blood": {
+        "page_title": "List of Blood Test Result",
+        "cxr_upload": "Form File Blood Test",
+        "here": "Here is Your",
+        "based": "Blood Test"
+      },
+      "pcr": {
+        "page_title": "List of PCR/SWAB Result",
+        "cxr_upload": "Form File PCR/SWAB",
+        "here": "Here is Your",
+        "based": "PCR/SWAB"
+      }
+    },
+    "medical_record": {
+      "page_title": "Listing Medical Record",
+      "new": "New Episode",
+      "new_medical": "New Medical Record",
+      "detail": "Detail Medical Record",
+      "detail_title": "Patient Detail Medical Record"
+    },
+    "detail": {
+      "monitoring": "Detail Patient Monitoring"
+    },
+    "monitoring": {
+      "page_title": "Listing Monitoring Record",
+      "btn_new": "New Monitoring",
+      "detail": "Detail Monitoring Patient",
+      "new": "New Monitoring Patient"
+    }
+  },
+  "nurse": {
+    "page_title": "Dashboard Nurse"
+  },
+  "doctor": {
+    "page_title": "Dashboard Doctor"
+  },
+  "hospital": {
+    "dashboard" : {
+      "room": "Room Capacity"
+    }
+  },
+  "ui": {
+    "btn" : {
+      "back": "Back",
+      "new": "New"
+    },
+    "info": {
+      "upload_on": "Upload On"
+    }
+  }
+}

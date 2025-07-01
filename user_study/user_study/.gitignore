@@ -1,0 +1,6 @@
+/backend/env
+/venv
+/backend/settings.py
+.env
+/backend/Multiclass/test_codes/inception_multiclass_new_4.h5
+/backend/Multiclass/test_codes/resnet_multiclass_new_1.h5

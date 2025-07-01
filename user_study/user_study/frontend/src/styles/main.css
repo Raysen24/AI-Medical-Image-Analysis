@@ -1,0 +1,120 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+#root {
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: var(--color-primary);
+}
+
+:root {
+    --color-primary: #1E1D1F;
+    --color-secondary: #242227;
+    --color-tertiary: #2B282F;
+    --color-quaternary: #454545;
+    --color-quinary: #4F4F4F;
+    --color-senary: #626262;
+    --color-septenary: #787878;
+    --color-octonary: #A4A4A4;
+    --color-nonary: #D9D9D9;
+    --color-denary: #F1F1F1;
+    --color-blueish: #017BFF;
+    --color-reddish: #D64639;
+    --color-greenish: #39D668;
+}
+
+.custom-date-input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    /* This makes the icon white */
+    cursor: pointer;
+}
+
+.custom-date-input::-webkit-inner-spin-button,
+.custom-date-input::-webkit-clear-button {
+    display: none;
+    /* Hides the clear and spin buttons in some browsers */
+}
+
+.custom-checkbox:checked {
+    background-color: var(--color-nonary);
+    /* Tailwind's red-400 */
+    border-color: var(--color-nonary);
+    /* Tailwind's red-400 */
+}
+
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: white;
+    /* Tailwind's gray-300 */
+    background-color: transparent;
+    /* Tailwind's gray-100 */
+    position: relative;
+}
+
+.custom-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 238, 238, 0.5);
+    /* Tailwind's red-400 */
+}
+
+.custom-checkbox:checked::before {
+    content: '';
+    display: block;
+    width: 0.5rem;
+    height: 0.75rem;
+    border: solid var(--color-primary);
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0.5rem;
+    left: 0.65em;
+}
+
+.custom-checkbox-prediction:checked {
+    background-color: var(--color-nonary);
+    border-color: var(--color-nonary);
+}
+
+.custom-checkbox-prediction {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: white;
+    background-color: transparent;
+    position: relative;
+}
+
+.custom-checkbox-prediction:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 238, 238, 0.5);
+}
+
+.custom-checkbox-prediction:checked::before {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 2rem;
+    border: solid var(--color-primary);
+    border-width: 0 5px 5px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0.5rem;
+    left: 1.25rem;
+}

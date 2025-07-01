@@ -1,0 +1,10 @@
+# Load the function from the file
+with open('patient_predict.pkl', 'rb') as f:
+    loaded_function = dill.load(f)
+
+# Now you can use 'loaded_function' just like the original 'full_patient_analysis'
+# Example usage:
+model_paths = ['mobilenet_combination_model_fold_all_data_3.h5', 'mobilenet_combination_model_fold_4bp_2.h5', 'mobilenet_combination_model_fold_all_exc_4_1.h5']
+patient_path = '../datasets/test_patient'
+predicted_label = loaded_function(patient_path, model_paths)
+print("Predicted Label:", predicted_label)

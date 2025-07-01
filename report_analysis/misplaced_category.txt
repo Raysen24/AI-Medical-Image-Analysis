@@ -1,0 +1,30 @@
+ankle_joint_bilateral
+['ankle_joint_bilateral-2401030049_Series_1001-report-1']
+
+ankle_sinistra
+['ankle_sinistra-2310220022_Series_1001-report-1']
+
+femur_dextra
+['femur_dextra-2311010173_Series_1001-report-1', 'femur_dextra-2311120010_Series_1001-report-1']
+
+femur_sinistra
+['femur_sinistra-2312160073_Series_1001-report-1']
+
+humerus_biateral
+['humerus_biateral-2401190085_Series_1001-report-1']
+
+humerus_dextra
+['humerus_dextra-2311040006_Series_1001-report-1']
+
+humerus_sinistra
+['humerus_sinistra-2310240160_Series_1001-report-1']
+
+pedis_dextra
+['pedis_dextra-2310230186_Series_1001-report-1', 'pedis_dextra-2310300107_Series_1001-report-1', 'pedis_dextra-2311030128_Series_1001-report-1', 'pedis_dextra-2311030173_Series_1001-report-1', 'pedis_dextra-2311040090_Series_1001-report-1', 'pedis_dextra-2311060129_Series_1001-report-1', 'pedis_dextra-2311120021_Series_1001-report-1']
+
+pelvis
+['pelvis-2312180093_Series_1001_0000-report-1']
+
+vertebra_lumbosakral
+['vertebra_lumbosakral-2310230141_Series_1001-report-1', 'vertebra_lumbosakral-2311080054_Series_1001-report-1']
+

@@ -1,0 +1,89 @@
+{
+  "system_admin": {
+    "dashboard": {
+      "page_title": "Beranda Sistem Admin",
+      "total_visit": "Total Kunjungan",
+      "total_user": "Total Pengguna",
+      "location": "3 Lokasi Tertinggi",
+      "summary": "Aktivitas Pengguna"
+    },
+    "system_admin": {
+      "page_title": "Manajemen Pengguna",
+      "user_active": "Pengguna Aktif",
+      "page_title_detail": "Detail Pengguna",
+      "hospital": "Rumah Sakit",
+      "hospital_detail": "Detail Rumah Sakit"
+    }
+  },
+  "patient": {
+    "dashboard": {
+      "page_title": "Beranda Pasien",
+      "blood_trend": "GRAFIK HASIL LABORATORIUM",
+      "history": "Riwayat Tekanan Darah"
+    },
+    "input": {
+      "cxr": {
+        "page_title": "Daftar Hasil Scan CXR",
+        "cxr_upload": "Formulir File CXR",
+        "here": "Hasil",
+        "based": "SCAN CXR AI",
+        "notes": "Catatan Dokter"
+      },
+      "ctscan": {
+        "page_title": "Daftar Hasil Scan CT-Scan",
+        "cxr_upload": "Formulir File CT-Scan",
+        "here": "Hasil",
+        "based": "SCAN CT-Scan AI",
+        "notes": "Catatan Dokter"
+      },
+      "blood": {
+        "page_title": "Daftar Hasil Blood Test",
+        "cxr_upload": "Formulir File Blood Test",
+        "here": "Hasil",
+        "based": "Blood Test"
+      },
+      "pcr": {
+        "page_title": "Daftar Hasil PCR/SWAB",
+        "cxr_upload": "Formulir File PCR/SWAB",
+        "here": "Hasil",
+        "based": "PCR/SWAB"
+      }
+    },
+    "medical_record": {
+      "page_title": "Daftar Pengecekan Medis",
+      "new": "Tambah Episode",
+      "new_medical": "Tambah Medical Record",
+      "detail": "Detail Medical Record Pasien",
+      "detail_title": "Detail Pasien Medical Record"
+    },
+    "detail": {
+      "monitoring": "Detail Pasien Monitoring"
+    },
+    "monitoring": {
+      "page_title": "Daftar Monitoring Record",
+      "btn_new": "Tambah Monitoring",
+      "detail": "Detail Monitoring Pasien",
+      "new": "Tambah Monitoring Pasien"
+    }
+  },
+  "nurse": {
+    "page_title": "Beranda Perawat"
+  },
+  "doctor": {
+    "page_title": "Dashboard Dokter"
+  },
+  "hospital": {
+    "dashboard" : {
+      "room": "Room Capacity"
+    }
+  },
+  "ui": {
+    "btn": {
+      "back": "Kembali",
+      "new": "Tambah"
+    },
+    "info": {
+      "upload_on": "Diunggah pada"
+    }
+  }
+}
